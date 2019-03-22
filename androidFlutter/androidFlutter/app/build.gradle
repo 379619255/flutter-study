@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "module.com.netease.androidflutter"
+        applicationId "module.com.xxx.androidflutter"
         minSdkVersion 23
         //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 26

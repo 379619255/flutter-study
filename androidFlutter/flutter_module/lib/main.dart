@@ -43,9 +43,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   static const toAndroidPlugin =
-      const MethodChannel('module.com.netease.androidflutter.toandroid/plugin');
+      const MethodChannel('module.com.xxx.androidflutter.toandroid/plugin');
   static const fromAndroiPlugin =
-      const EventChannel('module.com.netease.androidflutter.toflutter/plugin');
+      const EventChannel('module.com.xxx.androidflutter.toflutter/plugin');
 
   StreamSubscription _fromAndroidSub;
   var _nativeParams;

@@ -1,4 +1,4 @@
-package module.com.netease.androidflutter;
+package module.com.xxx.androidflutter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("module.com.netease.androidflutter", appContext.getPackageName());
+        assertEquals("module.com.xxx.androidflutter", appContext.getPackageName());
     }
 }

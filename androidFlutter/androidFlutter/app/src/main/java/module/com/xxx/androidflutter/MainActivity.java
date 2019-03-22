@@ -1,13 +1,11 @@
-package module.com.netease.androidflutter;
+package module.com.xxx.androidflutter;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.util.Log;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import io.flutter.facade.Flutter;
 import io.flutter.plugin.common.EventChannel;
@@ -26,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private FrameLayout frameLayout;
     private FlutterView flutterView;
-    public static final String FlutterToAndroidCHANNEL  = "module.com.netease.androidflutter.toandroid/plugin";
-    public static final String  AndroidToFlutterCHANNEL= "module.com.netease.androidflutter.toflutter/plugin";
+    public static final String FlutterToAndroidCHANNEL  = "module.com.xxx.androidflutter.toandroid/plugin";
+    public static final String  AndroidToFlutterCHANNEL= "module.com.xxx.androidflutter.toflutter/plugin";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

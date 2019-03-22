@@ -1,4 +1,4 @@
-package module.com.netease.androidflutter;
+package module.com.xxx.androidflutter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

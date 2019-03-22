@@ -1,4 +1,4 @@
-package module.com.netease.androidflutter;
+package module.com.xxx.androidflutter;
 
 import org.junit.Test;
 
